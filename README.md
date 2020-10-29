@@ -1,4 +1,9 @@
 # go-acl
+
+![CI](https://github.com/edufschmidt/go-acl/workflows/CI/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/edufschmidt/go-acl)](https://goreportcard.com/report/github.com/edufschmidt/go-acl)
+[![codecov](https://codecov.io/gh/edufschmidt/go-acl/branch/master/graph/badge.svg)](https://codecov.io/gh/edufschmidt/go-acl)
+
 Generic implementation of an Access Control List system for enforcing authorization across different resources. 
 
 While originally meant for utilization in the [Drago](https://github.com/seashell/drago) project, this ACL system was built with flexibility in mind, and should be straightforward to configure and integrate into other codebases.
@@ -19,7 +24,6 @@ While originally meant for utilization in the [Drago](https://github.com/seashel
 * **Secret**: an object in possession of the acessor which can be associated to a set of policies. A secret can be anything, from an opaque tokens to a JWT, as long as it is possible to resolve it.
   
 * **ACL**: Object containing a compiled version of the access rules associated with a secret, and that can be used to find out whether a specific operation can be performed on a resource/instance.
-
 
 ## Usage
 
