@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	log "github.com/seashell/drago/pkg/log"
-	radix "github.com/seashell/drago/pkg/radix"
+	log "github.com/edufschmidt/go-acl/pkg/log"
+	radix "github.com/edufschmidt/go-acl/pkg/radix"
 )
 
 // SecretResolverFunc returns the token associated with a secret

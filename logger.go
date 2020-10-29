@@ -3,7 +3,7 @@ package acl
 import (
 	"fmt"
 
-	"github.com/seashell/drago/pkg/log"
+	"github.com/edufschmidt/go-acl/pkg/log"
 )
 
 const (

@@ -1,3 +1,3 @@
-module github.com/seashell/acl
+module github.com/edufschmidt/go-acl
 
-go 1.14
+go 1.15
