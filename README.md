@@ -36,7 +36,6 @@ const (
 Then we create a `acl.Model` object:
 
 ```go
-
 	model := NewModel()
 	model.Resource("book").
 		Capabilities(capBookRead, capBookWrite, capBookList).
