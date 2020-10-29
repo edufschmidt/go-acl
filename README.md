@@ -1,5 +1,7 @@
-# acl
-Generic implementation of an Access Control List system for enforcing authorization across different resources. While originally meant for utilization in the [Drago](https://github.com/seashell/drago) project, this ACL system was built with flexibility in mind, and should be straightforward to configure and integrate into other codebases.
+# go-acl
+Generic implementation of an Access Control List system for enforcing authorization across different resources. 
+
+While originally meant for utilization in the [Drago](https://github.com/seashell/drago) project, this ACL system was built with flexibility in mind, and should be straightforward to configure and integrate into other codebases.
 
 ## Concepts
 * **Resource**: any type of resource that might require authorization. Example: book.
