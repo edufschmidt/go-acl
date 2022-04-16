@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	log "github.com/edufschmidt/go-acl/pkg/log"
-	radix "github.com/edufschmidt/go-acl/pkg/radix"
+	log "github.com/edufschmidt/go-log"
+	radix "github.com/edufschmidt/go-radix-tree"
 )
 
 // SecretResolverFunc returns the token associated with a secret

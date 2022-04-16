@@ -3,7 +3,7 @@ package acl
 import (
 	"fmt"
 
-	"github.com/edufschmidt/go-acl/pkg/log"
+	log "github.com/edufschmidt/go-log"
 )
 
 const (
@@ -61,6 +61,11 @@ func (l simpleLogger) Panicf(format string, args ...interface{}) {
 
 func (l simpleLogger) WithFields(fields log.Fields) log.Logger {
 	l.fields = fields
+	return l
+}
+
+func (l simpleLogger) WithName(name string) log.Logger {
+	l.options.Prefix = name + l.options.Prefix
 	return l
 }
 

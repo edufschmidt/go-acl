@@ -1,0 +1,4 @@
+github.com/edufschmidt/go-log v0.0.0-20220416020815-ebc24acd6f8b h1:08+p5Wqsu006Z903cmvEfqbYDtYxOCpfBjsCuRUAjTc=
+github.com/edufschmidt/go-log v0.0.0-20220416020815-ebc24acd6f8b/go.mod h1:18agXwXoHzVedUapvUuUD6W43abuhRQCwLJ1bZxLrYs=
+github.com/edufschmidt/go-radix-tree v0.0.0-20200926200026-f45e81539dd4 h1:bzJP220jgAdKg4SydOce4gYotTndb8zy6Z5b1y4MWv4=
+github.com/edufschmidt/go-radix-tree v0.0.0-20200926200026-f45e81539dd4/go.mod h1:PXVNvQs2Ku7WtWE+2T9ixe9D9fl08jgL+JejXOyZeT8=
